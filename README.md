@@ -1,2 +1,147 @@
-# InternNova-Week4
-InternNova Java Development - Week 4 Assignment on Exception Handling and Collections.
+# Java Exception Handling & Collections
+
+A collection of Java programs demonstrating exception handling, collection frameworks, and string manipulation, developed as part of the InternNova Java Development.
+
+## Overview
+
+This project explores essential Java programming concepts through practical implementations, progressing from individual programs to a menu-driven Student Record Manager.
+
+The programs demonstrate error handling, collection operations, key-value data storage, unique element management, and mutable string manipulation.
+
+## Tech Stack
+
+* **Language:** Java
+* **JDK:** 26
+* **IDE:** Visual Studio Code
+* **Version Control:** Git & GitHub
+
+## Projects
+
+### 01. Safe Calculator
+
+A console-based calculator that performs basic arithmetic operations with exception handling.
+
+**Features**
+
+* Addition, subtraction, multiplication, division, and modulus
+* Handles division and modulus by zero
+* Handles invalid numeric input
+* Supports repeated calculations
+
+**Concepts:** Exception Handling, Scanner, Switch Statements
+
+### 02. Student Names Manager
+
+A program for managing a collection of student names.
+
+**Features**
+
+* Add and display student names
+* Remove a student
+* Search for a student
+* Display the updated collection
+
+**Concepts:** ArrayList, Collection Operations
+
+### 03. Unique Course Manager
+
+A program that maintains a collection of unique course names.
+
+**Features**
+
+* Add multiple course entries
+* Automatically eliminate duplicate values
+* Search for a course
+* Display unique courses
+
+**Concepts:** HashSet, Uniqueness, Set Operations
+
+### 04. Student Records
+
+A program that stores and manages student IDs and corresponding names.
+
+**Features**
+
+* Add student records
+* Display all records
+* Search using a student ID
+* Remove records
+* Display updated records
+
+**Concepts:** HashMap, Key-Value Pairs, Map Operations
+
+### 05. String Manipulation
+
+A demonstration of mutable string operations using Java's StringBuilder class.
+
+**Features**
+
+* Append additional text
+* Insert text at a specified position
+* Replace a portion of the text
+* Reverse the final string
+
+**Concepts:** StringBuilder, Mutable Strings
+
+### 06. Student Record Manager
+
+A menu-driven console application that brings together the concepts explored throughout the project.
+
+**Features**
+
+* Add student details, including ID, name, course, and age
+* View all stored student records
+* Search for students using their IDs
+* Remove student records
+* Display unique courses across student records
+* Validate student details and handle common input errors
+* Format student information using StringBuilder
+
+**Concepts:** HashMap, HashSet, Collections, Exception Handling, StringBuilder
+
+Student records are maintained in memory during execution and are not persisted after the application exits.
+
+## Project Structure
+
+```text
+InternNova-Week4/
+│
+├── Task1_SafeCalculator.java
+├── Task2_StudentNames.java
+├── Task3_UniqueCourses.java
+├── Task4_StudentRecords.java
+├── Task5_StringBuilderDemo.java
+├── Task6_StudentRecordManager.java
+├── Screenshots/
+└── README.md
+```
+
+## Getting Started
+
+### Prerequisites
+
+* Java Development Kit (JDK) installed
+* A terminal or Java-compatible IDE
+* Git (optional, for cloning the repository)
+
+### Clone the Repository
+
+```bash
+git clone <your-repository-url>
+cd InternNova-Week4-Exception-Collections
+```
+
+Replace `<your-repository-url>` with your actual GitHub repository URL.
+
+### Compile and Run
+
+Each program can be compiled and executed independently.
+
+For example, to run the Student Record Manager:
+
+```bash
+javac Task6_StudentRecordManager.java
+java Task6_StudentRecordManager
+```
+
+To run another program, replace `Ta
